@@ -22,10 +22,11 @@ const PORT = process.env.PORT || 3000;
 // CORS configuration
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://waste-management-frontend.onrender.com"],
+    origin: ["http://localhost:5173", "https://waste-management-frontends.onrender.com"],
     credentials: true,
   })
 );
+
 
 
 // Middleware
