@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 3000;
 // CORS configuration
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174"], // ✅ Supports both ports
+     origin: ["http://localhost:5173", "https://your-frontend.onrender.com"], ✅ Supports both ports
     credentials: true,
   })
 );
